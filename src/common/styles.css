@@ -1,0 +1,24 @@
+.invisible{
+    display: none;
+}
+
+.cat-info{
+    display: flex;
+    gap: 35;
+}
+
+image{
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: auto;
+}
+.breed-select{
+    width:230px;
+}
+body{
+    background-color: rgb(204, 0, 255);
+}
