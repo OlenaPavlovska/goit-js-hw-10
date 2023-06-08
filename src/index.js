@@ -78,7 +78,9 @@ refs.loader.classList.add("invisible");
 }
 let errorOccurred = false;
 
-function onError() { if (!errorOccurred) { 
+function onError()
+{
+    if (!errorOccurred) { 
         errorOccurred = true;
         refs.loader.classList.add("invisible");
         refs.divData.classList.add("invisible");
